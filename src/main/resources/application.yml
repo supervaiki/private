@@ -1,0 +1,22 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: library-management
+
+  profiles:
+    active: "@activatedProperties@"
+
+  banner:
+    location: banner
+
+security:
+  url:
+    authorized: /oauth/login, /actuator, /actuator/**, /v3/api-docs/**, /v3/api-docs.yaml, /swagger-ui/**, /swagger-ui.html
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
