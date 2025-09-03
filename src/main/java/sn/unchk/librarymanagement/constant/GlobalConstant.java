@@ -23,5 +23,6 @@ public class GlobalConstant {
     public static final String MEMBER_BASE_ROUTE = "/members";
     public static final String BOOK_BASE_ROUTE = "/books";
     public static final String AUTHOR_BASE_ROUTE = "/authors";
+    public static final String CATEGORY_BASE_ROUTE = "/categories";
 
 }
